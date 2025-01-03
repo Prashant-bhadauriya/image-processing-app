@@ -1,8 +1,30 @@
-# React + Vite
+# Image Processing Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains a full-stack application for image processing. 
 
-Currently, two official plugins are available:
+**Frontend (React):**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* User-friendly interface for image upload and processing type selection.
+* Displays original and processed images side-by-side.
+* Allows users to download the processed image.
+
+**Backend (Flask):**
+
+* RESTful API endpoint (`/process_image`) for image processing.
+* Supports various image processing options:
+    * Grayscale
+    * Invert
+    * Blur 
+* Handles image uploads and returns processed images in base64 format.
+
+**Technologies:**
+
+* **Frontend:** React, JavaScript, CSS
+* **Backend:** Flask, Python, NumPy, Pillow
+* **Deployment:** GitHub Pages (React), Heroku (Flask)
+
+**Getting Started**
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
