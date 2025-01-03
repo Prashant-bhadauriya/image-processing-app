@@ -1,0 +1,85 @@
+.container {
+    /* max-width: 800px; */
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .row {
+    display: none;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+  
+  .col {
+    flex: 1;
+    margin: 1rem;
+  }
+  
+  .card {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 1.5rem;
+    background-color: #fff;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+ .card-title {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: none;
+ }
+  
+  .image-preview {
+    max-width: 250px;
+    max-height: 250px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-right: 5px;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0069d9;
+  }
+
+.downBtn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+  
+  .error {
+    color: #dc3545; /* Bootstrap danger color */
+    margin-top: 1rem;
+  }
