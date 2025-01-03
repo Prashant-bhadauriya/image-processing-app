@@ -27,4 +27,4 @@ This repository contains a full-stack application for image processing.
 
 1. **Clone the repository:**
    ```bash
-   git clone (https://github.com/Prashant-bhadauriya/image-processing-app.git)
+   git clone https://github.com/Prashant-bhadauriya/image-processing-app.git
